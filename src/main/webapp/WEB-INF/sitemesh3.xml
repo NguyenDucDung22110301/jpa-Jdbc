@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+
+
+<mapping path="/admin/*" name="admin" decorator="Admin.jsp"/> 
+<mapping path="/views/user/Home.jsp" name="user" decorator="UserHome.jsp"/> 
+<mapping path="/views/user/books" name="user" decorator="UserHome.jsp"/>
+<mapping path="/views/user/*" name="user" decorator="User.jsp"/> 
+
+
+</sitemesh>

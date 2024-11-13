@@ -24,5 +24,5 @@ public class BookAuthor {
 	    
 	  @ManyToOne
 	  @JoinColumn(name = "author_id")
-	  private Author author;
+	  private Author_22110301 author;
 }

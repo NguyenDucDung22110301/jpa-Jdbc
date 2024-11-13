@@ -20,7 +20,7 @@ public class Rating {
 
     @ManyToOne
     @JoinColumn(name = "bookid")
-    private Book book;
+    private Book_22110301 book;
 
     @ManyToOne
     @JoinColumn(name = "userid")

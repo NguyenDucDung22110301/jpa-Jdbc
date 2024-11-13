@@ -1,17 +1,17 @@
 package service.impl;
 
-import DAO.IUserDAO;
-import DAO.impl.UserDAOImpl;
-import entity.User;
+import DAO.IUserDAO_22110301;
+import DAO.impl.UserDAO22110301Impl_22110301;
+import entity.User_22110301;
 import service.UserService;
 
 
 public class UserServiceImpl implements UserService {
 	
-	public IUserDAO cateDao = new UserDAOImpl();
+	public IUserDAO_22110301 cateDao = new UserDAO22110301Impl_22110301();
 	
 	@Override
-	public void insert(User user) {
+	public void insert(User_22110301 user) {
 		cateDao.insert(user);
 	}
 	

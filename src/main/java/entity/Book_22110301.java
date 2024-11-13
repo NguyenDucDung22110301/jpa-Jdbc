@@ -40,6 +40,6 @@ public class Book implements Serializable {
         joinColumns = @JoinColumn(name = "bookid"),
         inverseJoinColumns = @JoinColumn(name = "author_id")
     )
-    private Set<Author> authors;
+    private Set<Author_22110301> authors;
 
 }
